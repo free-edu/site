@@ -6,9 +6,9 @@ threadsafe: true
 
 handlers:
 - url: /
-script: main.app
-secure: optional	
+  script: main.app
+  secure: optional
 
 - url: /
-static_dir: static
-secure: optional
+  static_dir: static
+  secure: optional
