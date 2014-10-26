@@ -1,0 +1,11 @@
+{
+  "name": "fes-site",
+  "version": "0.0.1",
+  "description": "FES main site",
+  "main": "server.js",
+  "repository": {"type": "git", "url": "git@github.com:free-edu/site.git"},
+  "author": "Jason M Baker",
+  "dependencies": {
+    "express": ">=4.8.0"
+  }
+}
