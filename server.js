@@ -6,7 +6,7 @@ var PORT = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || '8080';
 
 app.use('/static', express.static(__dirname + '/static'));
 
-app.get('/', function (req, res) {
+app.use(function(req, res) {
   res.sendFile(__dirname + '/static/index.html');
 });
 
