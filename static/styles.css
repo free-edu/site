@@ -6,6 +6,10 @@
   list-style-type: none;
 }
 
+.spacer-sm {
+  height: 32px;
+}
+
 .spacer-md {
   height: 64px;
 }
