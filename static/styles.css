@@ -5,3 +5,7 @@
 .bulletless > li {
   list-style-type: none;
 }
+
+.spacer-md {
+  height: 64px;
+}
